@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "beefy sample.js --live --open"
+    "sample": "beefy sample.js --live --open"
   },
   "author": "Dan Finlay",
   "license": "ISC",
@@ -13,7 +13,10 @@
     "color": "^0.11.3",
     "mersenne-twister": "^1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "beefy": "2.1.8",
+    "browserify": "16.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flyswatter/jazzicon.git"
